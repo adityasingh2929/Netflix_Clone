@@ -379,10 +379,8 @@ body {
   grid-template-rows: 10vh 10vh 10vh 10vh;
 }
 
-.link-grid-elements{
-    justify-self: center;
-    align-self: center;
-    color: gray;
+.link-grid-elements {
+  justify-self: center;
+  align-self: center;
+  color: gray;
 }
-
-
