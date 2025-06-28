@@ -104,6 +104,7 @@ body {
   border: none;
   border: 1px solid white;
   opacity: 0.4;
+  color: white;
 }
 .get-started-button {
   position: relative;
@@ -137,7 +138,7 @@ body {
 .main-second {
   margin-top: 0px;
   width: 100vw;
-  height: 200vh;
+  height: 290vh;
   background-color: #0b0b0f;
   display: flex;
   flex-direction: column;
@@ -204,3 +205,184 @@ body {
     transform: scale(105%);
   }
 }
+
+/* Reasoning - CSS */
+.reasoncards {
+  height: 40vh;
+  width: 90vw;
+  background-color: #0b0b0f;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.card-reason {
+  width: 20vw;
+  height: 30vh;
+  background-color: #111116;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #1c0032 0%, #24004d 50%, #0b0b0f 100%);
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+
+.reason-heading {
+  font-size: 3vh;
+  color: white;
+  margin: 2vh;
+}
+
+.reason-info {
+  font-size: 2vh;
+  color: rgb(192, 189, 189);
+  margin: 2vh;
+  font-weight: normal;
+}
+
+.svg-icon-reasoning {
+  align-self: flex-end;
+}
+
+.svg-icon-one {
+  position: relative;
+  top: 2vh;
+}
+.svg-icon-two {
+}
+.svg-icon-three {
+  position: relative;
+  top: 4vh;
+}
+.svg-icon-four {
+  position: relative;
+  top: 3vh;
+}
+
+/* Frequently Asked Section's CSS */
+.frequently-asked-section {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.question-card {
+  height: 15vh;
+  width: 80vw;
+  background-color: rgb(40, 39, 39);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.question-card-info {
+  color: white;
+  font-size: 4vh;
+  margin: 2vw;
+}
+
+.question-card-symbol {
+  color: white;
+  border: none;
+  background-color: rgb(40, 39, 39);
+  font-size: x-large;
+}
+
+.qcard-button-one {
+  position: relative;
+  left: 60vw;
+}
+
+.qcard-button-two {
+  position: relative;
+  left: 49.4vw;
+}
+
+.qcard-button-three {
+  position: relative;
+  left: 57.4vw;
+}
+
+.qcard-button-four {
+  position: relative;
+  left: 59.2vw;
+}
+
+.qcard-button-five {
+  position: relative;
+  left: 49.5vw;
+}
+
+/* Restart Membership - CSS */
+
+.restart-info {
+  color: white;
+  margin-top: 10vh;
+  position: relative;
+  top: 2vh;
+}
+
+.restart-membership {
+  width: 80vw;
+  height: 30vh;
+  border-radius: 7px;
+  background-color: #0b0b0f;
+  display: flex;
+  justify-content: center;
+  gap: 2vh;
+}
+
+.restart-input {
+  align-self: flex-start;
+  height: 10vh;
+  width: 25vw;
+  background-color: #0b0b0f;
+  border-radius: 7px;
+  border: none;
+  border: 1px solid white;
+  opacity: 0.4;
+  color: white;
+}
+
+.restart-button {
+  height: 10.5vh;
+  width: 12vw;
+  border-radius: 7px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* Link Section CSS */
+
+.link-info-one {
+  color: white;
+  position: relative;
+  right: 32vw;
+}
+
+.link {
+  width: 80vw;
+  height: 40vh;
+  display: grid;
+  grid-template-columns: 20vw 20vw 20vw 20vw;
+  grid-template-rows: 10vh 10vh 10vh 10vh;
+}
+
+.link-grid-elements{
+    justify-self: center;
+    align-self: center;
+    color: gray;
+}
+
+
