@@ -177,6 +177,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 2vh;
 }
 
@@ -212,9 +213,11 @@ body {
 @keyframes FocusAnimation {
   from {
     transform: scale(100%);
+    filter: brightness(100%);
   }
   to {
     transform: scale(105%);
+    filter: brightness(120%);
   }
 }
 
@@ -228,6 +231,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2vh;
+  flex-wrap: wrap;
 }
 
 .card-reason {
@@ -353,6 +357,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 2vh;
+  flex-wrap: wrap;
 }
 
 .restart-input {
@@ -394,12 +399,19 @@ body {
   width: 80vw;
   height: 40vh;
   display: grid;
-  grid-template-columns: 20vw 20vw 20vw 20vw;
-  grid-template-rows: 10vh 10vh 10vh 10vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .link-grid-elements {
   justify-self: center;
   align-self: center;
   color: gray;
+}
+
+@media screen and (orientation: portrait) {
+  .link {
+    grid-template-columns: 1fr;
+    gap: 1vh;
+  }
 }
