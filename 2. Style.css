@@ -426,9 +426,112 @@ body {
   color: #ccc;
 }
 
-@media screen and (orientation: portrait) {
+
+/* ------------ RESPONSIVE STYLES FOR iPhone XR & below ------------ */
+
+@media screen and (max-width: 430px) {
+  .logo-img {
+    width: 30vw;
+    height: auto;
+    padding-left: 5vw;
+  }
+
+  .nav-first-button,
+  .nav-second-button {
+    width: 35vw;
+    left: auto;
+    right: 5vw;
+    top: 3vh;
+    font-size: 2.5vw;
+    height: 5vh;
+    margin-bottom: 1vh;
+  }
+
+  .main-heading-container {
+    width: 90vw;
+    height: auto;
+    left: 5vw;
+    top: 25%;
+    text-align: center;
+  }
+
+  .main-heading {
+    font-size: 4vh;
+  }
+
+  .sub-info,
+  .sub-info-two {
+    font-size: 1.8vh;
+  }
+
+  .email-input,
+  .restart-input {
+    width: 80vw;
+    height: 8vh;
+    margin: 2vh auto;
+  }
+
+  .get-started-button,
+  .restart-button {
+    width: 80vw;
+    height: 8vh;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .main-second > h2 {
+    font-size: 3vh;
+    margin-left: 5vw;
+  }
+
+  .trending,
+  .reasoncards,
+  .restart-membership {
+    flex-direction: column;
+    height: auto;
+    gap: 3vh;
+  }
+
+  .trendcards,
+  .card-reason {
+    width: 80vw;
+    height: auto;
+  }
+
+  .trending-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .frequently-asked-section {
+    width: 95vw;
+    height: auto;
+  }
+
+  .question-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2vh;
+  }
+
+  .question-card-info {
+    font-size: 2.5vh;
+  }
+
+  .question-card-symbol {
+    align-self: flex-end;
+    position: static;
+  }
+
+  .link-info-one {
+    text-align: center;
+    right: auto;
+  }
+
   .link {
-    grid-template-columns: 1fr;
-    gap: 1vh;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    gap: 2vh;
+    justify-items: center;
   }
 }
