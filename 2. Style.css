@@ -114,6 +114,13 @@ body {
   opacity: 0.4;
   color: white;
 }
+
+.email-input::placeholder{
+  color: #ccc;
+  opacity: 1;
+  padding: 10px;
+}
+
 .get-started-button {
   position: relative;
   bottom: 6.3vh;
@@ -370,6 +377,12 @@ body {
   border: 1px solid white;
   opacity: 0.4;
   color: white;
+}
+
+.restart-input::placeholder{
+  color: #ccc;
+  opacity: 1;
+  padding: 10px;
 }
 
 .restart-button {
