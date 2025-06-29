@@ -422,6 +422,10 @@ body {
   color: gray;
 }
 
+.link-grid-elements:hover{
+  color: #ccc;
+}
+
 @media screen and (orientation: portrait) {
   .link {
     grid-template-columns: 1fr;
